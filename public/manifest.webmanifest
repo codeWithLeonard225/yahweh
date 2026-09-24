@@ -1,14 +1,14 @@
 {
-  "name": "Sheikh Tais Islamic Secondary School",
-  "short_name": "Sheikh Tais",
+  "name": "Yehweh Academy international ",
+  "short_name": "Yehweh",
   "icons": [
     {
-      "src": "/icons/sheikh-tais-192x192.png",
+      "src": "/icons/yahweh-academy-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/icons/sheikh-tais-512x512.png",
+      "src": "/icons/yahweh-academy-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
