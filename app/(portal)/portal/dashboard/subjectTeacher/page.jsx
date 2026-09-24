@@ -34,6 +34,7 @@ import ReportCard from "../../TeacherAssign/ReportCard";
 import GradeEntry from "../../TeacherAssign/GradeEntry";
 import SubjectGradeDeleteEntry from "../../TeacherAssign/SubjectGradeDeleteEntry";
 import PupilAttendanceScanner from "../../TeacherAssign/PupilAttendanceScanner";
+import PupilsAttendance from "../../TeacherAssign/PupilsAttendance";
 
 const NAV_ITEMS = [
   { key: "dashboard", label: "Dashboard", icon: <MdDashboard /> },
@@ -65,6 +66,7 @@ const NAV_ITEMS = [
       { key: "TermResult", label: "Term Result" },
       // { key: "YearlyResult", label: "Yearly Result" },
       { key: "PupilAttendanceScanner", label: "Scan Attendance " },
+      { key: "PupilsAttendance", label: "Pupil Attendance " },
     ],
   },
   { 
@@ -225,6 +227,7 @@ export default function SubjectTeacherDashboard() {
        case "GradeEntry": return <GradeEntry />; // ⭐️ Integrated your new page
       case "SubjectGradeDeleteEntry": return <SubjectGradeDeleteEntry />; // ⭐️ Integrated your new page
       case "PupilAttendanceScanner": return <PupilAttendanceScanner />; // ⭐️ Integrated your new page
+      case "PupilsAttendance": return <PupilsAttendance />; // ⭐️ Integrated your new page
       default:
         return (
           <div className="p-6 bg-white rounded-xl shadow-md">
